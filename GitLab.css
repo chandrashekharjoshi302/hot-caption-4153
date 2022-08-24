@@ -1,0 +1,180 @@
+body{
+    /* background: #F6FBF7; */
+    font-family:sans-serif;
+}
+/* //////////1st div////////////// */
+#one{
+    text-align: center;
+    width: 50vw;
+    height: 60vh;
+    margin: 0 25% 0 30% ;
+    
+}
+#one h1{
+    font-size: 40px;
+   
+}
+#one h2{
+    font-size: 21px;
+    font-weight: lighter;
+    color: #767676;
+}
+button{
+    padding: 10px;
+    color: rgb(37, 143, 37);
+    border: 1px solid rgb(37, 143, 37);
+    border-radius: 5px;
+}
+button:hover,
+button:focus{
+    padding: 10px;
+    color: white;
+    border: 1px solid solid rgb(37, 143, 37);
+    background-color:  rgb(37, 143, 37);
+    border-radius: 5px;
+}
+#one p{
+    color: #767676;
+}
+/* //////////////video div////////// */
+#video {
+    width: 60%;
+    margin: 0 20% 0 25%;
+    
+}
+/* //////////////2nd div//////////// */
+#two{
+    display: flex;
+    width: 80%;
+    margin:0 10% 50px 20%;
+    /* height: 300px; */
+}
+#two img{
+    width: 100%;
+    height: 70%;
+}
+#sub{
+width: 90%;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+
+margin-left: 10%;
+}
+#sub p{
+    color: #767676;
+    line-height: 20px;
+}
+/* //////////////3rd div///////////// */
+#three{
+    margin-top: 20px;
+    width: 60%;
+    position: relative;
+    left: 25vw;
+}
+#three img{
+    width: 100%;
+}
+#three h3{
+    line-height: 30px;
+    font-weight: lighter;
+}
+/* ////////////4th div///////////// */
+#fourth{
+    display: flex;
+    position: relative;
+    gap: 10px;
+    width: 70vw;
+    left: 20vw;
+    margin: 50px 0 50px 0;
+}
+#fourth img{
+    height: 50px;
+    align-self: center;
+}
+#five {
+    
+    display: flex;
+    position: relative;
+    width: 80vw;
+    left: 20vw;
+    gap: 20px;
+    height: 400px;
+}
+#five_first{
+    width: 40%;
+}
+#five_first img{
+    height: 80%;
+}
+.five_sub{
+    display: flex;
+}
+.five_sub p{
+    width: 90%;
+}
+.five_sub button{
+border: transparent;
+background-color: transparent;
+}
+/* /////////////6th div //////////// */
+#six{
+    margin: 110px 20vw 0 20vw;
+    text-align: center;
+    width: 60vw;
+    display: grid;
+ 
+}
+#six img{
+width: 10%;
+height: 50px;
+}
+/* //////////////7th div///////////// */
+#seven{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    position: relative;
+    width: 70vw;
+    gap: 50px;
+    left: 25vw;
+    margin-bottom: 20px;
+}
+#seven div{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 
+    0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 10px;
+}
+#Keep_reading{
+   
+    height: auto;
+   position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+    left: 10vw;
+}
+#eight{
+    display: flex;
+    position: relative;
+    gap: 300px;
+    left: 30vw;
+    margin-bottom: 100px;
+    
+}
+#eight img{
+    width: 40px;
+    height: 40px;
+}
+#eight_sub1{
+display: flex;
+}
+
+ul.eight_2nd{
+    list-style-type: circle;
+    line-height: 40px;
+}
+#eight p{
+    font-size: 20px;
+}
+#eight li{
+    font-size: 20px;
+}
+
