@@ -1,6 +1,4 @@
-body{
-    background-color: #f6fbf7;
-}
+
 #everhourSlack {
     width: 50%;
     margin: auto;
@@ -99,8 +97,8 @@ P {
 #flex {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 30px;
-    width: 80%;
+    gap: 100px;
+    width: 90%;
     margin: auto;
     margin-top: 80px;
 }
@@ -108,7 +106,7 @@ P {
 #grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    gap: 60px;
 }
 
 #grid>div>p {
@@ -174,7 +172,7 @@ a{
 #middle{
     width:60%;
     margin:auto;
-    margin-top: 50px;
+    margin-top: 140px;
 }
 #middle>ul>li>img{
     width:100%;
@@ -266,16 +264,35 @@ h1{
     display: flex;
     width: 90%;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 200px;
+    margin-bottom: 150px;
 }
 
-input {
-    font-size: 20px;
+#input {
+    font-size: 25px;
     width: 300px;
     padding: 10px;
-    margin:20px 0 20px 0px;
+    margin:20px 10px 20px 0px ;
 }
-
+#div{
+    display:flex;
+}
+#li{
+    margin-top: 40px;
+}
+#button {
+    width: 160px;
+    padding: 18px;
+    margin-left: 10px;
+    background-color: #57bb71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin:20px 0px 20px 0px ;
+}
+#button:hover{
+    box-shadow: 1px 1px 20px #6ecab3;
+}
 #last>div>div>i>img {
     width: 3%;
 }
@@ -303,7 +320,7 @@ input {
     font-size: 40px;
 
 }
-#last>div>h2 {
+#last>div>h2{
 
     color: #333333;
     color: rgb(51, 51, 51);
@@ -315,8 +332,6 @@ input {
     vertical-align: baseline;
     letter-spacing: normal;
     word-spacing: 0px;
-    margin: 0px 0px 8px;
-    padding: 0px;
     font-weight: 400;
     font-style: normal;
     font-variant: normal;
@@ -324,7 +339,7 @@ input {
     text-decoration: none solid rgb(51, 51, 51);
     text-indent: 0px;
 }
-#last>div>h3{
+#last>div>h3,#source>h3{
     color: #767676;
     color: rgb(118, 118, 118);
     background-color: #000000;
@@ -342,5 +357,82 @@ input {
     font-variant: normal;
     text-transform: none;
     text-decoration: none solid rgb(118, 118, 118);
+    text-indent: 0px;
+}
+#drop{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    gap:100px;
+    width:90%;
+    margin:auto;
+}
+#drig{
+    margin-top: 50px;
+    height:80%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#drig>div{
+    margin-top: 30px;
+    cursor: pointer;
+    border-bottom: 0.5px #57bb71 solid;
+}
+.hide{
+    display:none;
+}
+.show:hover + .hide{
+    display:block;
+}
+.show{
+    color: #333333;
+    color: rgb(51, 51, 51);
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: geomanist-book, sans-serif;
+    font-size: 20px;
+    line-height: 43.92px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(51, 51, 51);
+    text-indent: 0px; 
+}
+.hide{
+    color: #7C7C7C;
+    line-height: 28px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(51, 51, 51);
+    text-align: left;
+    text-indent: 0px;
+    font-family: sans-serif;
+    font-size: 16px;   
+}
+/* #drop>div{
+    border:red solid;
+} */
+#source>h2{
+    color: #333333;
+    color: rgb(51, 51, 51);
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: geomanist-book, sans-serif;
+    font-size: 36px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    font-weight: 300;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(51, 51, 51);
     text-indent: 0px;
 }

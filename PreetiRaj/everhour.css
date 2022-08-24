@@ -1,0 +1,392 @@
+#star {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px;
+    width:55%;
+    margin:auto;
+    margin-top: 80px;
+
+}
+
+#star>div>img {
+    width: 35%;
+    margin-left: 240px;
+    margin-right: 0;
+    padding: 0;
+    background-color: #f6fbf7;
+}
+
+#star>div>p {
+    color: #7C7C7C;
+    font-family: geomanist-regular, sans-serif;
+    text-decoration: none solid rgb(124, 124, 124);
+}
+#first{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+#first>div>input {
+    font-size: 20px;
+    width: 300px;
+    padding: 10px;
+    margin:20px 0 20px 0px;
+}
+
+#first>div>button {
+    width: 160px;
+    padding: 18px;
+    margin-left: 10px;
+    background-color: #57bb71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#first>div>button:hover{
+    box-shadow: 1px 1px 20px #6ecab3;
+}
+
+#first>div>div>i>img {
+    width: 2%;
+}
+#first>div>div>i> {
+    padding-top:10px;
+}
+#first>div>div>span>a{
+    padding-bottom: 5px;
+    font-size: 20px;
+    margin-left: 10px;
+    color:#767676;
+}
+#first>div>h1,#h1{
+
+    color: #333333;
+    color: rgb(51, 51, 51);
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: geomanist-book, sans-serif;
+    font-size: 46px;
+    line-height: 55px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    margin: 0px 0px 8px;
+    padding: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(51, 51, 51);
+    text-indent: 0px;
+    font-weight: 400;
+}
+#first>div>h3{
+    color: #767676;
+    color: rgb(118, 118, 118);
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: geomanist-regular, sans-serif;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+#h1{
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 500;
+}
+#logo{
+    display:flex;
+    gap:20px;
+    width:80%;
+    margin:auto;
+    margin-top:60px;
+}
+#logo>a>div{
+    display:flex;
+    gap:10px;
+}
+#logo>a>div>div>img{
+    width:30px;
+    height:30px;
+}
+#logo>a>div>div{
+    font-size: 25px;
+    color:#111111;
+    text-decoration: none;
+    font-weight: 400;   
+}
+#logo>a>div>div:hover{
+    color:#57bb71;
+}
+#logo>a{
+    text-decoration: none;
+    color:#111111;
+}
+#middle {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+#middle>div {
+    display: flex;
+    gap: 20px;
+}
+
+#middle>div>div:first-child {
+    background-color: #f2fbf9;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 0%;
+    width: 40px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+
+}
+#middle>div>div:first-child>span {
+    margin: 20px;
+    font-size: 30px;
+    text-align: end;
+    color: #57bb71
+}
+
+#middle>div>div:nth-child(2)>p:first-child {
+    color: #050505;
+    font-family: geomanist-book, sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    margin: 0px 0px 8px;
+    padding: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(51, 51, 51);
+    text-align: left;
+    text-indent: 0px;
+    font-weight:500 ;
+}
+
+#middle>div>div:nth-child(2)>p:last-child {
+    color: #7C7C7C;
+    color: rgb(124, 124, 124);
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: geomanist-regular, sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(124, 124, 124);
+    text-align: left;
+    text-indent: 0px
+}
+#last {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+
+input {
+    font-size: 20px;
+    width: 300px;
+    padding: 10px;
+    margin:20px 0 20px 0px;
+}
+
+button {
+    width: 160px;
+    padding: 18px;
+    margin-left: 10px;
+    background-color: #57bb71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    box-shadow: 1px 1px 20px #6ecab3;
+}
+#last>div>div>i>img {
+    width: 3%;
+}
+#last>div>div>i> {
+    padding-top:10px;
+}
+#last>div>div>span>a{
+    padding-bottom: 5px;
+    font-size: 20px;
+    margin-left: 10px;
+    color:#767676;
+}
+#last>div>li {
+    color: #333333;
+    line-height: 27px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    font-size: 19px;
+    font-style: normal; font-variant: normal; text-transform: none;
+    text-decoration: none solid rgb(51, 51, 51); text-align: left; text-indent: 0px;
+}
+#last>div>li::marker{
+    color:#57bb71;
+    font-size: 40px;
+
+}
+#last>div>h2,#a>div>h2 {
+
+    color: #333333;
+    color: rgb(51, 51, 51);
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: geomanist-book, sans-serif;
+    font-size: 36px;
+    line-height: 43.92px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    margin: 0px 0px 8px;
+    padding: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(51, 51, 51);
+    text-indent: 0px;
+}
+#last>div>h3{
+    color: #767676;
+    color: rgb(118, 118, 118);
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: geomanist-regular, sans-serif;
+    font-size: 18px;
+    line-height: 25.92px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    margin: 0px 0px 8px;
+    padding: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(118, 118, 118);
+    text-indent: 0px;
+}
+.content{
+    height:600px;
+    width:1200px;
+    overflow:hidden;
+    position:relative;
+    margin:auto;
+    margin-top: 70px;
+    display:flex;
+    gap:20px;
+    justify-content: space-around;
+}
+.content .images{
+    height:100%;
+    width:90%;
+}
+.images img{
+    height:100%;
+    width:100%;
+}
+
+.slide span{
+    font-size:35px;
+    color:grey;
+    line-height: 41px;;
+}
+#left>div{
+    border:1px solid white;
+    height:50px;
+    width:50px;
+    background-color: #f6fbf7;
+    border-radius: 50%;
+    box-shadow: 1px 5px 10px #7C7C7C;
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 5px;
+}
+#right>div{
+    border:1px solid white;
+    height:50px;
+    width:50px;
+    background-color: #f6fbf7;
+    border-radius: 50%;
+    box-shadow: 1px 5px 10px #7C7C7C;
+    text-align: center;
+    margin-top: 250px;
+    margin-right: 5px;
+}
+#costmor{
+    display:flex;
+    width:90%;
+    margin:auto;
+    gap:100px;
+    margin-top: 150px;
+}
+#costmor>div>#quote>div>div>img{
+  width:200%;
+  height: 100%;
+  margin-top: 50px;
+  margin-right: 20px;
+}
+#quote{
+    display:flex;
+    gap:80px;
+}
+#quote>div>p:first-child{
+    color: #7C7C7C;
+    font-family: geomanist-regular, sans-serif;
+    text-decoration: none solid rgb(124, 124, 124);
+    margin-top: 60px;
+    font-size: 20px;
+    line-height: 30px;
+}
+b {
+    background-image: linear-gradient(-100deg, rgba(250, 247, 133, 0.3), rgba(250, 247, 133, 0.7) 95%, rgba(250, 247, 133, 0.1));
+    color: #767676;
+    font-weight: 100;
+}
+#quote>div>a{
+    color:rgb(86, 140, 241);
+    font-size: 20px;
+    
+}
+#quote>div>h4{
+    font-weight: bold;
+    font-size: 20px;
+}
+#quote>div>p:last-of-type{
+    color: #7C7C7C;
+    font-family: geomanist-regular, sans-serif;
+    text-decoration: none solid rgb(124, 124, 124);
+    font-size: 20px;
+}
+#a{
+    border-bottom: 10px #fdf5e1 solid ;
+    border-left:  10px #fdf5e1 solid ;
+    padding-bottom:50px;
+    padding-left: 40px;
+}
