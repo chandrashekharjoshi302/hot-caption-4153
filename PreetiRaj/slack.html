@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Timesheets, Timecards and Time Off in Slack - Everhour</title>
       <link rel="stylesheet" href="slack.css">
+      <link rel="stylesheet" href="header.css">
 </head>
 <body>
+    <div id="navbar"></div>
     <!-- ---------------------------------------------------------------------------  -->
     <div id="first">
         <div>
@@ -88,3 +90,9 @@
 
 </body>
 </html>
+<script type="module">
+    import navbar from './navbar.js'
+   
+    let container = document.querySelector('#navbar')
+    container.innerHTML =navbar();
+</script>
