@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Everhour -- intutive Time Tracker & Timesheets for Teams</title>
+    <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="everhour.css">
+    <link rel="stylesheet" href="header.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
 </head>
 <body>
+   <div id="navbar"></div>
     <!-------------------------------------------------------------------------------------------------------------->
     <div id="star">
         <div><img src="images/image1.png.jpg" alt=""></div>
@@ -127,3 +130,10 @@
 </body>
 </html>
 <script src="everhour.js"></script>
+
+<script type="module">
+    import navbar from './navbar.js'
+   
+    let container = document.querySelector('#navbar')
+    container.innerHTML =navbar();
+</script>
