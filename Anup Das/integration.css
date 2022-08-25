@@ -1,0 +1,142 @@
+#header{
+    width: 60%;
+    border: 0px solid teal;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Nunito', sans-serif;
+font-family: 'Oleo Script Swash Caps', cursive;
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+}
+#header>p{
+    color: #767676;
+    font-size: 20px;
+}
+#box{
+    width: 85%;
+    border: 0px solid teal;
+    height: 1500px;
+    margin: auto;
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+#box>div{
+    width: 260.5px;
+    /* border: 1px solid red   ; */
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 5px;
+    height: 244px;
+}
+
+#box>div>div:nth-child(1){
+    width: 80px;
+    border: 0px solid teal;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+#box>div>div:nth-child(2){
+    width: 247px;
+    border-top: 1px solid rgb(230, 236, 236);
+    /* padding: 20px; */
+    margin: auto;
+    height: 68px;
+    margin-top: 27px;
+    font-family: 'Nunito', sans-serif;
+font-family: 'Oleo Script Swash Caps', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+text-align: start;
+margin-left: 20px;
+
+}
+
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		-webkit-transform: translateY(0);
+		-ms-transform:     translateY(0);
+		transform:         translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-30px);
+		-ms-transform:     translateY(-30px);
+		transform:         translateY(-30px)
+	}
+	60% {
+		-webkit-transform: translateY(-15px);
+		-ms-transform:     translateY(-15px);
+		transform:         translateY(-15px)
+	}
+}
+#box>div{  
+  position: relative;
+  /* top: 50%; */
+  /* left: 50%; */
+  /* height: 180px; */
+  /* width: 180px; */
+  /* background-color: red;   */
+  /* border-radius: 50%; */
+  /* line-height: 180px; */
+  text-align: center;
+  /* text-transform: uppercase; */
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  /* color: white; */
+}
+#box>div:hover{
+  cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+  border: 1px solid teal;
+}
+#ch{
+    width: 50%;
+    border: 0px solid teal;
+    margin: auto;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    /* text-align: start; */
+    /* margin-left: 20px; */
+    margin-top: 150px;
+}
+#ch>p,h3{
+    color: #767676;
+    font-size: 20px;
+}
+button{
+    /* display: block; */
+    /* margin: auto; */
+    height: 48px;
+    padding: 15px;
+    width: 152px;
+    border: 0px solid rgb(0, 128, 96);
+    background-color: #57bb71;
+    border-radius: 5px;
+    color:white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input{
+    height: 48px;
+    /* padding: 15px; */
+    width: 340px;
+    border: 1px solid rgb(0, 128, 96);
+    /* background-color: #57bb71; */
+    border-radius: 5px;
+    color:white;
+    font-size: 16px;
+
+}

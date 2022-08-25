@@ -1,0 +1,135 @@
+#main{
+    width: 880px;
+    height: 384px;
+    margin: auto;
+    border: 0px solid teal;
+    margin-top: 100px;
+}
+#main>div>h1{
+    font-family: sans-serif;
+    font-size: 48px;
+    text-align: center;
+}
+#main>div>h3{
+    font-family: sans-serif;
+    font-size: 22px;
+    text-align: center;
+    color: #767676;
+    word-spacing: 0px;
+    line-height: 29px;
+    /* justify-content: center */
+    text-decoration: none;
+}
+
+#main>div>.button:hover{
+    background-color: #1abf68;
+    color: white;
+}
+#main>div>button>i>img{
+    width: 20px;
+    height: 20px;
+}
+small{
+    text-align: center;
+    color: #7c7c7c;
+}
+
+
+
+
+button:hover{
+    background-color: #57bb71;
+    color: white;
+}
+
+button>img{
+    width: 30px;
+}
+button>span{
+    padding: 2px;
+}
+#a>button:nth-child(1){
+    margin: auto;
+    padding: 13px;
+    width: 215px;
+    border: 1px solid rgb(0, 128, 96);
+    background-color: #57bb71;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    margin-left: 200px;
+
+}
+#a>button:nth-child(2){
+    margin: auto;
+    padding: 13px;
+    width: 215px;
+    border: 1px solid rgb(0, 128, 96);
+    background-color: white;
+    border-radius: 5px;
+    color: #57bb71;
+    font-size: 16px;
+    margin-left: 20px;
+
+}
+#main2{
+    width: 536px;
+    height: 629px;
+    border: 0px solid red;
+    margin: auto;
+    padding: 56px 56px 56px 56px;
+    line-height: 27px;
+    font-size: 18px;
+    text-align: left;
+    color: #7c7c7c;
+    font-family: sans-serif;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#main2:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+#main2>h4{
+    color: #333333;
+}
+#ch{
+width: 50%;
+border: 0px solid teal;
+margin: auto;
+text-align: center;
+font-family: 'Nunito', sans-serif;
+font-family: 'Oleo Script Swash Caps', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+/* text-align: start; */
+/* margin-left: 20px; */
+margin-top: 150px;
+}
+#ch>p,h3{
+color: #767676;
+font-size: 20px;
+}
+button{
+/* display: block; */
+/* margin: auto; */
+height: 48px;
+padding: 15px;
+width: 152px;
+border: 0px solid rgb(0, 128, 96);
+background-color: #57bb71;
+border-radius: 5px;
+color:white;
+font-size: 16px;
+cursor: pointer;
+}
+
+input{
+height: 48px;
+/* padding: 15px; */
+width: 340px;
+border: 1px solid rgb(0, 128, 96);
+/* background-color: #57bb71; */
+border-radius: 5px;
+color:white;
+font-size: 16px;
+
+}
