@@ -1,0 +1,470 @@
+#one{
+    width: 50%;
+    height: 300px;
+    margin: auto;
+    margin-top: 140px;
+    text-align: center;
+    color: #333333;
+    font-family: geomanist-regular, sans-serif;
+}
+#one>h1{
+    font-size: 45px;
+}
+#one>p{
+    font-size: 21px;
+color: #767676; 
+}
+button{
+    width: 120px;
+    height: 30px;
+    border-radius: 13px;
+    border: 0px;
+}
+#box{
+    
+    width: 49%;
+    height: 900px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 40px;
+}
+img{
+    width: 300px;
+    background-color: white;
+}
+#box>h1{
+    margin-right: 90px;
+    color: #333333;
+}
+#box>p{
+    margin-left: 46px;
+    text-align: left;
+    color:#7C7C7C;
+}
+#cont{
+    height: 80px;
+    width: 150px;
+    margin: 40px 0px 0px 50px;
+}
+
+#list{
+line-height: 1px;
+font-size: 14px;
+}
+.one{
+display: flex;
+}
+.one>img{
+    margin-top: 3px;
+    width: 30px;
+    height: 25px;
+    margin-left: 40px;
+}
+.two{
+    display: flex;
+}
+.two>img{
+    margin-top: 3px;
+    width: 30px;
+    height: 25px;
+    margin-left: 40px;
+}
+.three{
+    display: flex;
+}
+.three>img{
+    margin-top: 3px;
+    width: 30px;
+    height: 25px;
+    margin-left: 40px; 
+}
+.four{
+    display: flex;
+}
+.four>img{
+    margin-top: 3px;
+    width: 30px;
+    height: 25px;
+    margin-left: 40px; 
+}
+.five{
+    display: flex;
+}
+.five>img{
+    margin-top: 3px;
+    width: 30px;
+    height: 25px;
+    margin-left: 40px; 
+}
+.six{
+    display: flex;
+}
+.six>img{
+    margin-top: 3px;
+    width: 30px;
+    height: 25px;
+    margin-left: 40px; 
+}
+.seven{
+    display: flex;
+}
+.seven>img{
+    margin-top: 3px;
+    width: 30px;
+    height: 25px;
+    margin-left: 40px; 
+}
+.eight{
+    display: flex;
+}
+.eight>img{
+    margin-top: 3px;
+    width: 30px;
+    height: 25px;
+    margin-left: 40px; 
+}
+.nine{
+    display: flex;
+}
+.nine>img{
+    margin-top: 3px;
+    width: 30px;
+    height: 25px;
+    margin-left: 40px; 
+}
+.ten{
+    display: flex;
+}
+.ten>img{
+    margin-top: 3px;
+    width: 30px;
+    height: 25px;
+    margin-left: 40px; 
+}
+.eleven{
+    display: flex;
+}
+.eleven>img{
+    margin-top: 3px;
+    width: 30px;
+    height: 25px;
+    margin-left: 40px; 
+}
+.twelve{
+    display: flex;
+}
+.twelve>img{
+    margin-top: 3px;
+    width: 30px;
+    height: 25px;
+    margin-left: 40px; 
+}
+.thirteen{
+    display: flex;
+}
+.thirteen>img{
+    margin-top: 3px;
+    width: 30px;
+    height: 25px;
+    margin-left: 40px; 
+}
+.fourteen{
+    display: flex;
+}
+.fourteen>img{
+    margin-top: 3px;
+    width: 30px;
+    height: 25px;
+    margin-left: 40px; 
+}
+.fivteen{
+    display: flex;
+}
+.fivteen>img{
+    margin-top: 3px;
+    width: 30px;
+    height: 25px;
+    margin-left: 40px; 
+}
+.sixteen{
+    display: flex;
+}
+.sixteen>img{
+    margin-top: 3px;
+    width: 30px;
+    height: 25px;
+    margin-left: 40px; 
+}
+.seventeen{
+    display: flex;
+}
+.seventeen>img{
+    margin-top: 3px;
+    width: 30px;
+    height: 25px;
+    margin-left: 40px; 
+}
+.eightteen{
+    display: flex;
+}
+.eightteen>img{
+    margin-top: 3px;
+    width: 30px;
+    height: 25px;
+    margin-left: 40px; 
+}
+
+   #QA{
+    font-family: geomanist-regular, sans-serif;
+    margin: 200px 0px 60px -200px ;
+  width: 30%;
+  height: 600px; 
+  }
+   #QA>h1{
+    color: #333333;
+    font-weight: 600;
+    width: 190%;
+    font-size: 33px;
+   }
+   #QA>p{
+    width: 530px;
+    color: #767676;
+    font-size: 19px;
+    text-align: left;
+   }
+   #QA>img{
+    width: 480px;
+   }
+ a{
+  color: royalblue;
+ }
+   #cont>h4{
+    color: #57BB71;
+    margin: 10px 120px 0px 0px;
+    font-size: 20px;
+    font-weight: lighter;
+   }
+   #money{
+    width: 110px;
+    height: 80px;
+    margin: -25px 0px 0px 17px;
+    font-size: 60px; 
+    color: #57BB71 ;
+   }
+   #point{
+    width: 36px;
+    height: 23px;
+    margin: -39px 0px 0px 104px ;
+    color: #57BB71 ;
+   }
+   #butt:hover{
+    border: 2px solid #57BB71;
+    border-color: #57BB71;
+    color: #57BB71;
+    background-color: white;
+   }
+   #but:hover{
+    border: 2px solid #57BB71;
+    border-color: #57BB71;
+    color: #57BB71;
+    background-color: white;
+   }
+   .flag{
+    width: 22px;
+   }
+
+
+#ans{
+    margin: -650px 0px 0px 400px;
+    width: 80%;
+}
+   #last {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 300px;
+    margin-bottom: 150px;
+    margin-left: -210px;
+}
+
+#input {
+    font-size: 20px;
+    width: 300px;
+    padding: 10px;
+    margin:20px 10px 20px 0px ;
+}
+#div{
+    display:flex;
+}
+#li{
+    margin-top: 20px;
+}
+#button {
+    width: 160px;
+    height: 48px;
+    padding: 7px;
+    font-size: 19px;
+    margin-left: 10px;
+    background-color: #57bb71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin:20px 0px 20px 0px ;
+}
+#button:hover{
+    box-shadow: 1px 1px 20px #6ecab3;
+}
+#last>div>div>i>img {
+    width: 2.5%;
+    position: relative;
+    top: 2px;
+    left: 7px;
+}
+#last>div>div>i> {
+    padding-top:10px;
+}
+#last>div>div>span>a{
+    padding-bottom: 5px;
+    font-size: 20px;
+    margin-left: 10px;
+    color:#767676;
+}
+#last>div>li {
+    color: #333333;
+    line-height: 27px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    font-size: 19px;
+    font-style: normal; font-variant: normal; text-transform: none;
+    text-decoration: none solid rgb(51, 51, 51); text-align: left; text-indent: 0px;
+    width: 390px;
+}
+#last>div>li::marker{
+    color:#57bb71;
+    font-size: 40px;
+
+}
+#last>div>h2{
+
+    color: #333333;
+    color: rgb(51, 51, 51);
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: geomanist-book, sans-serif;
+    font-size: 36px;
+    line-height: 43.92px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(51, 51, 51);
+    text-indent: 0px;
+    width: 800px;
+    
+}
+#last>div{
+    text-align: left ;
+}
+#last>div>h3,#source>h3{
+    color: #767676;
+    color: rgb(118, 118, 118);
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: geomanist-regular, sans-serif;
+    font-size: 18px;
+    line-height: 25.92px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    margin: 0px 0px 8px;
+    padding: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(118, 118, 118);
+    text-indent: 0px;
+}
+/* #drop{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    gap:100px;
+    width:90%;
+    margin:auto;
+} */
+#drig{
+    text-align: left;
+    margin-top: 50px;
+    height:80%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#drig>div{
+    margin-top: 30px;
+    cursor: pointer;
+    border-bottom: 0.5px #57bb71 solid;
+}
+.hide{
+    display:none;
+}
+.show:hover + .hide{
+    display:block;
+}
+.show{
+    color: #333333;
+    color: rgb(51, 51, 51);
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: geomanist-book, sans-serif;
+    font-size: 20px;
+    line-height: 43.92px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(51, 51, 51);
+    text-indent: 0px; 
+}
+.hide{
+    color: #7C7C7C;
+    line-height: 28px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(51, 51, 51);
+    text-align: left;
+    text-indent: 0px;
+    font-family: sans-serif;
+    font-size: 16px;   
+}
+/* #drop>div{
+    border:red solid;
+} */
+#source>h2{
+    color: #333333;
+    color: rgb(51, 51, 51);
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: geomanist-book, sans-serif;
+    font-size: 36px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    font-weight: 300;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(51, 51, 51);
+    text-indent: 0px;
+}
+   
