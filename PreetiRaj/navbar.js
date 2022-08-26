@@ -20,7 +20,7 @@ function navbar(){
                         <div><img src="HomepageImages/todoist.png" alt=""><a href="todoist-time-tracking.html">Todoist</a></div>
                         <div><img src="HomepageImages/Notion.png" alt=""><a  href="#">Notion</a></div>
                         <div><img src="HomepageImages/xero.png" alt=""><a href="#">Xero</a></div>
-                        <div><img src="HomepageImages/Quickbook.png" alt=""><a href="/hot-caption-4153/FreshBooks.html">QuickBooks</a></div>
+                        <div><img src="HomepageImages/Quickbook.png" alt=""><a href="quickbook.html">QuickBooks</a></div>
                     </div>
                     <div id="inte">Everhour offers real integration with your favorite tools.
                         <a href="#">All integrations</a>
