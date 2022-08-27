@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="FreshBooks.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSztLOu_XXK4VwmTn1s7kJdw8MbaNS_ngvLfQ&usqp=CAU" type="image/icon type">
+    <title>FreshBooks</title>
+    <link rel="stylesheet" href="/css/FreshBooks.css">
+    <link rel="stylesheet" href="/css/footer.css" />
+<link rel="stylesheet" href="/css/header.css">
 </head>
 <body>
+    <div id="navbar"></div>
     <div id="content">
         <h1>Export your invoices to FreshBooks</h1>
         <h3>Seamlessly export invoices you’ve created in Everhour to FreshBooks<br>
@@ -20,5 +24,21 @@
         <h2>How can I benefit from this?</h2>
         <p>By implementing this integration, we will help you fight time-consuming and tiring copy-pasting. Instead of switching between Everhour/FreshBooks tabs to fill in an invoice, you can properly complete all the steps in Everhour and billable hours will be automatically copied to FreshBooks.</p>
     </div>
+    <div id="footer"></div>
 </body>
 </html>
+
+
+<script type="module">
+   
+    import navbar from '/components/navbar.js'
+   
+    let container = document.querySelector('#navbar')
+    container.innerHTML =navbar();
+
+    import footer from '/components_2/footer.js'
+  let x= document.getElementById("footer")
+  console.log(x)
+    x.innerHTML = footer()
+    
+</script>

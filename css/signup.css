@@ -1,0 +1,84 @@
+#signUp_body {
+    width: 50%;
+    border: 0px solid red;
+    height: 630px;
+    margin: auto;
+    margin-top: 140px;
+    text-align: center;
+    color: #333333;
+    font-family: geomanist-regular, sans-serif;
+}
+.heading_005{
+    font-size: 45px;
+}
+.heading_006{
+    margin-left: -40px;
+    width: 110%;
+    font-size: 18px;
+color: #767676; 
+}
+#googleSigns{
+    margin: 50px 100px 0px 0px;
+}
+.ok{
+    margin-right: 10px;
+    margin-top: -200px;
+}
+.oko{
+    width: 365px;
+    height: 275px;
+    position: absolute;
+    left: -700px;
+    top: -14px;
+}
+
+#email{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    height: 36px;
+    width: 345px;
+    border-radius: 3px;
+    border: 1px solid #C0CCDA;
+    padding-left: 10px;
+}  
+
+#submit01{
+    font-size: 16px;
+    background-color: #57BB71;
+    color: white;
+    border: 0px solid;
+    width: 200px;
+    height: 50px;
+    margin-top: -40px;
+} 
+  .googleButton{
+    border: 1px solid #3C4858;
+    background-color: transparent;
+    margin-top: 0px;
+    position: relative;
+    top: -20px;
+    right: -34px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}  
+
+ .google_icon {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    right: -148px;
+    top: -14px;
+} 
+
+
+  .submit {
+    height: 40px;
+    width: 360px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: 32px;
+    text-align: center;
+}p{
+    color: #7C7C91;
+}

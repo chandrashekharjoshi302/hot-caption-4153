@@ -7,10 +7,14 @@
     <title>Sign up to Everhour</title>
     <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSztLOu_XXK4VwmTn1s7kJdw8MbaNS_ngvLfQ&usqp=CAU" type="image/icon type">
 
-    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="/css/signup.css">
+    <link rel="stylesheet" href="/css/header.css">
+    
+    <link rel="stylesheet" href="/css/footer.css" />
     
 </head>
 <body>
+    <div id="navbar"></div>
     <div id="signUp_body">
         <h1 class="heading_005"> Make your team more productive with Everhour</h1>
         <p class="heading_006">Join 3,500+ customers who use Everhour to track time and plan their future projects more effectively</p>
@@ -36,11 +40,21 @@
               
             </form>
             <p>Free to try •   No credit card required  •   1-minute signup</p>
-   
+</div>
+
+            <div id="footer"></div>
 </body>
 </html>
-<script>
+ 
+<script type="module">
 
+     import navbar from '/components/navbar.js'
+   
+   let container = document.querySelector('#navbar')
+   container.innerHTML =navbar();
+
+        
+   
     let form=document.querySelector("form")
     let SignUpLs=JSON.parse(localStorage.getItem("signup"))||[];
 
@@ -63,4 +77,10 @@
         window.location.href="https://accounts.google.com/signin/v2/challenge/pwd?continue=https%3A%2F%2Fmyaccount.google.com%2Fdeleteaccount&service=accountsettings&osid=1&rart=ANgoxce2NOmUboAj5ztFuo_XHOPV5EiemkwNxZhxOZWpKsyt6OPqj1TqGy3sGZRyqiFHp1R5XHe0oyfJ9r0R5JEbcFKXYhxq_Q&TL=AKqFyY__jPjwzPP0dNYMp7IYGpdwo6la35qxnqwqAIXuJ9rKW6_7yOUqn9vjDhtc&flowName=GlifWebSignIn&cid=1&flowEntry=ServiceLogin"
     }
 
+    import footer from '/components_2/footer.js'
+  let x= document.getElementById("footer")
+  console.log(x)
+    x.innerHTML = footer()
+
 </script>
+

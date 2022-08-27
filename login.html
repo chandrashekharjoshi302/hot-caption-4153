@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="login.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSztLOu_XXK4VwmTn1s7kJdw8MbaNS_ngvLfQ&usqp=CAU" type="image/icon type">
+
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/footer.css" />
+<link rel="stylesheet" href="/css/header.css">
 </head>
 <body>
+    <form>
+    <div id="navbar"></div>
     <div id="content">
         <div id="one">
             <h1>Log in to Everhour</h1>
@@ -20,8 +26,12 @@
                     <p>Login in with Google</p>
                 </button>
                 <p>or</p>
-                <input class="two_one" type="text" placeholder="Enter your email...">
-                <input class="two_one" type="password" placeholder="Password...">
+                <br>
+                <br>
+                <input id="email" type="text" placeholder="Enter your email...">
+                <br>
+                <br>
+                <input id="password" type="password" placeholder="Password...">
                 <button id="login">Log in</button>
                 <p class="span">
                     <span>Login with SSO</span>
@@ -76,5 +86,50 @@
             </div>
         </div>
     </div>
+    <div id="footer"></div>
+</form>
 </body>
 </html>
+
+
+<script type="module">
+   
+    import navbar from '/components/navbar.js'
+   
+    let container = document.querySelector('#navbar')
+    container.innerHTML =navbar();
+
+    import footer from '/components_2/footer.js'
+  let x= document.getElementById("footer")
+  console.log(x)
+    x.innerHTML = footer()
+
+
+    let form=document.querySelector("form");
+    let SignUpLs=JSON.parse(localStorage.getItem("signup"))||[]
+
+    form.addEventListener("submit",function(e){
+        e.preventDefault();
+        if(SignUpLs.length===0){
+            alert("No user")
+            return;
+        }
+       let obj={
+        email:form.email.value,
+        password:form.password.value,
+       }
+       let flag=false;
+       SignUpLs.forEach(function(ele){
+        if(ele.email===obj.email || ele.password===obj.password)
+        {   flag=true;
+            localStorage.setItem("signin",JSON.stringify(ele))
+            alert("sign up sucessfully")
+            window.location.href='index.html';
+        }
+       })
+       if(flag===false){
+       alert("user doesnot Exist")
+       }
+    })
+    
+</script>

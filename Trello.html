@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="Trello.css">
+    <title>Trello</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSztLOu_XXK4VwmTn1s7kJdw8MbaNS_ngvLfQ&usqp=CAU" type="image/icon type">
+
+    <link rel="stylesheet" href="/css/Trello.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/header.css">
 </head>
 <body>
+    <div id="navbar"></div>
     <div id="constent">
         <div id="one">
             <div>
@@ -249,6 +254,43 @@
             </div>
         </div>
     </div>
+    <div id="footer"></div>
 </body>
 </html>
-<script src="Trello.js"></script>
+
+
+<script type="module">
+   
+    import navbar from '/components/navbar.js'
+   
+    let container = document.querySelector('#navbar')
+    container.innerHTML =navbar();
+
+    import footer from '/components_2/footer.js'
+  let x= document.getElementById("footer")
+  console.log(x)
+    x.innerHTML = footer()
+
+    let video=document.getElementById("video");
+
+video.addEventListener("click",()=>{
+    let iframe_div=document.createElement("div")
+    iframe_div.setAttribute("id","iframe_div")
+    let content=document.getElementById("constent")
+
+    let iframe=document.createElement("iframe");
+
+    iframe.src="https://www.youtube.com/embed/D_3ONFnI8MM";
+    iframe.allowFullscreen="fullscreen";
+    let cancel=document.createElement("button");
+    cancel.setAttribute("id","cancel")
+    cancel.innerText="x";
+    cancel.addEventListener("click",()=>{
+        window.location.reload()
+    })
+    iframe_div.append(iframe,cancel)
+    content.append(iframe_div)
+})
+
+    
+</script>

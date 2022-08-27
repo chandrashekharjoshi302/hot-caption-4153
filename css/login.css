@@ -1,0 +1,206 @@
+#content{
+    width: 100%;
+    height: auto;
+    font-family: sans-serif;
+}
+a{
+    color: #5d95e2;
+}
+#one h1{
+    font-size: 40px;
+    font-weight: lighter;
+}
+#one{
+    margin-top: 100px;
+    text-align: center;
+}
+#one h3{
+color: #877676;
+font-weight: lighter;
+}
+#one_span{
+    border-bottom: 1px dashed;
+}
+span{
+    
+    border-bottom: 1px solid;
+    border-color:rgb(220,180,140);
+    color: #877676;
+    font-size: 15px;
+}
+/* //////////////two////////////// */
+#two{
+    width: 66%;
+    margin: 50px 15% 50px 15%;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 50px 20px 50px 20px;
+}
+#two>div{
+    width: 40%;
+}
+#two_one{
+    text-align: center;
+}
+#two_one p{
+color: #877676;
+font-size: 17px;
+font-weight: lighter;
+}
+.login_google{
+    width: 80%;
+    height: 40px;
+    margin: 10px 10% 10px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    border-radius: 3px;
+    border: 1px solid rgb(135, 131, 131);
+    color: #877676;
+    font-weight: lighter;
+}
+.login_google img{
+    width: 30px;
+    height: 30px;
+}
+
+#email{
+    width: 80%;
+    height: 40px;
+    margin: 10px 10% 10px 10%;
+    border-radius: 3px;
+    border: 1px solid rgb(72, 68, 68);
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+#password{
+    width: 80%;
+    height: 40px;
+    margin: 10px 10% 10px 10%;
+    border-radius: 3px;
+    border: 1px solid rgb(72, 68, 68);
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+
+#two_two p{
+    margin-top: -10px;
+    color: #877676;
+    line-height: 47px;
+}
+#two_two h4{
+
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: lighter;
+    line-height: 20px;
+}
+#login{
+    width: 40%;
+    padding: 15px 0 15px 0;
+    background-color: #57bb71;
+    color: white;
+    border-radius: 5px ;
+    border: 0px;
+}
+#login:hover,
+#login:focus{
+    width: 40%;
+    padding: 15px 0 15px 0;
+    background-color: #57bb71;
+    color: white;
+    border-radius: 5px ;
+    border: 0px;
+    box-shadow: #57bb71 0px 5px 15px;
+    border: 1px solid rgb(87,187,113);
+}
+
+#three{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    
+}
+#three>div{
+    width: 36%;
+    margin: 0 32% 0 32%;
+}
+#three h1{
+    font-size: 40px;
+    font-weight: lighter;
+}
+#three h3{
+    font-weight: lighter;
+    color: #877676;
+}
+#three_sub{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+#three_sub>div{
+    height: 100%;
+    width: fit-content;
+}
+#three_email{
+    display: flex;
+    gap: 20px;
+
+}
+#email_three{
+    width:400px ;
+    border-radius: 5px;
+    font-size: 17px;
+    border: 1px solid rgb(87,187,113);
+}
+#three_try_it_free{
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #57bb71;
+    color: white;
+    font-size: 17px;
+}
+#three_try_it_free:hover,
+#three_try_it_free:focus{
+    width: 200px;
+    height: 60px;
+    background-color: #57bb71;
+    color: white;
+    border-radius: 5px ;
+    border: 0px;
+    box-shadow: #57bb71 0px 5px 15px;
+    border-color: #57bb71;
+}
+
+#three_sub2{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin: 50px 0 0 0;
+}
+#three_google{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    font-size: 17px;
+    border: 0px;
+    background-color: transparent;
+    color: #877676;
+}
+
+#three_google img{
+   width: 30px;
+    height: 30px;
+}
+hr{
+  border: 1px solid #fce7e7;
+}

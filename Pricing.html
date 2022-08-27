@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Everhour Pricing & Free Trial</title>
     <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSztLOu_XXK4VwmTn1s7kJdw8MbaNS_ngvLfQ&usqp=CAU" type="image/icon type">
- <link rel="stylesheet" href="Pricing.css">
+ <link rel="stylesheet" href="/css/Pricing.css">
+ <link rel="stylesheet" href="/css/header.css">
+ <link rel="stylesheet" href="/css/footer.css">
 </head>
 <body>
+    <div id="navbar"></div>
     <div id="one">
         <h1>Simple pricing with no extra fees</h1>
         <p>Start with no commitment. Try everything. Subscribe if you love it.</p>
@@ -85,13 +89,15 @@
                 </div>
             </div>
 
-
+<div id="footer"></div>
           
 </body>
-</html>
 <script>
-    let box = document.getElementById('money')
+
+
+let box = document.getElementById('money')
     let boxx = document.getElementById('point')
+
     function month()
     {
       box.innerHTML=null;
@@ -107,5 +113,29 @@
       boxx.append(".57")  
     }
     year()
+
+
+</script>
+</html>
+<script type="module">
+
+
+
+
+
+   
+    import navbar from '/components/navbar.js'
+   
+    let container = document.querySelector('#navbar')
+    container.innerHTML =navbar();
+
+    import footer from '/components_2/footer.js'
+  let x= document.getElementById("footer")
+  console.log(x)
+    x.innerHTML = footer()
+
+
+
+   
 
 </script>

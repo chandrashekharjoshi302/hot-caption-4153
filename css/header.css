@@ -1,0 +1,128 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+#nav{
+    display:grid;
+    grid-template-columns: 0.5fr 2fr;
+    height:70px;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+}
+#nav>div>a>img{
+    width: 155px;
+    height: 53px;
+}
+#nav>div:first-child{
+    padding:20px 0px 50px 50px;
+}
+#nav2{
+    display:flex;
+    justify-content: space-between;
+    border: 0px solid red;
+}
+#nav3{
+    border: 0px solid red;
+    display:flex;
+    gap:50px;
+    justify-content: space-around;
+    padding:30px 0px;
+    color: #7C7C7C;
+    font-family: geomanist-regular, sans-serif;
+    text-decoration: none solid rgb(124, 124, 124);
+    font-size: 20px;
+    margin-top: 3px;
+}
+#nav3>div>button{
+    padding:5px 10px;
+    border:none;
+    color:white;
+    background-color: #57bb71;
+    border-radius: 5px;
+}
+
+#nav3>div>a{
+    text-decoration: none;
+    color: #7C7C7C;
+}
+#nav3>div>button:hover{
+    color:black;
+}
+#nav3>div:hover{
+    /* color:black; */
+    font-weight: bold;
+}
+#nav4>button{
+    padding:10px;
+    border:none;
+    color:white;
+    background-color: #57bb71;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-left: 20px;
+    
+}
+#nav4>button>a{
+    text-decoration: none;
+    color:  white;
+}
+#nav4{
+    justify-content: space-around;
+    padding:30px 0px;
+    color: #7C7C7C;
+    font-family: geomanist-regular, sans-serif;
+    text-decoration: none solid rgb(124, 124, 124);
+    font-size: 20px;
+    margin-right:50px;
+}
+#nav4>span>a{
+    text-decoration: none;
+    color: #7C7C7C;
+}
+#nav4>span:hover{
+   color:black;
+   font-weight: bold;
+}
+#int{
+    width:250px;border:1px solid black;padding:10px;
+    background-color: white;
+    color:#585757;
+    font-size: 15px;
+}
+.hide>div>div:hover{
+    color:#57bb71;
+}
+#int>div>div>img{
+    width:15%;
+    margin-right:5px;
+}
+#grid{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap:20px;
+}
+#grid>div>a{
+    color:#585757;
+    text-decoration: none;
+}
+#grid>div>a:hover{
+    color:#57bb71
+}
+#inte{
+    margin-top:15px;
+    border-top: 1px solid #7C7C7C;
+    padding:10px;
+}
+.show{
+    display:grid;
+    grid-template-columns: 1fr;
+    gap:20px;
+}
+ .hide{
+ visibility:hidden;
+}
+.show:hover  .hide{
+ visibility:visible;
+} 

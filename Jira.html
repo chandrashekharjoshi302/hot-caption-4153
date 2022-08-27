@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSztLOu_XXK4VwmTn1s7kJdw8MbaNS_ngvLfQ&usqp=CAU" type="image/icon type">
+
     <title>Jira time tracking By Everyhour</title>
     <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSztLOu_XXK4VwmTn1s7kJdw8MbaNS_ngvLfQ&usqp=CAU" type="image/icon type">
- <link rel="stylesheet" href="jira.css">
+ <link rel="stylesheet" href="/css/jira.css">
+ <link rel="stylesheet" href="/css/header.css">
+    
+ <link rel="stylesheet" href="/css/footer.css" />
 </head>
 <body>
+   <div id="navbar"></div>
    <div id="one">
     <h1>Jira time tracking integration</h1>
     <p>Time tracking in Jira with Everhour will help you on several levels: from billing to time-off management, as well as everyday real-time time tracking</p>
@@ -193,6 +199,20 @@ is the key to compatibility</p>
            <li><strong>3,500+ happy customers</strong></li>
        </div>
    </div>
+   <div id="footer"></div>
 </body>
 </html>
-<script src="jira.js"></script>
+ 
+<script type="module">
+
+     import navbar from '/components/navbar.js'
+   
+   let container = document.querySelector('#navbar')
+   container.innerHTML =navbar();
+
+        
+        import footer from '/components_2/footer.js'
+  let x= document.getElementById("footer")
+  console.log(x)
+    x.innerHTML = footer()
+</script>

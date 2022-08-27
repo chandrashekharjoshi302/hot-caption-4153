@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSztLOu_XXK4VwmTn1s7kJdw8MbaNS_ngvLfQ&usqp=CAU" type="image/icon type">
+
+    <title>Timesheets, Timecards and Time Off in Slack - Everhour</title>
+      <link rel="stylesheet" href="/css/slack.css">
+      <link rel="stylesheet" href="/css/header.css">
+      <!-- <link rel="stylesheet" href="/css/header.css"> -->
+    
+      <link rel="stylesheet" href="/css/footer.css" />
+</head>
+<body>
+    <div id="navbar"></div>
+    <!-- ---------------------------------------------------------------------------  -->
+    <div id="first">
+        <div>
+            <div id="logo">
+                <div><img src="https://blog-cdn.everhour.com/assets/images/new-design/icons/svg/integration-everhour.svg" alt="everhourLogo"></div>
+                 <div><img src="https://blog-cdn.everhour.com/assets/images/new-design/icons/svg/integration-quickbooks.svg" alt="quickboooklogo"></div>
+            </div>
+            <div id="write">
+                <h1>Everhour + Slack</h1>
+                <h3>Keep track of your project timesheets, working hours, and paid time off inside Slack</h3>
+            </div>
+        </div>
+        <div><img src="https://blog-cdn.everhour.com/assets/images/new-design/illustrations/primary-illustrations/qbo-everhour-primary.webp" alt="image9"></div>
+    </div>
+    <!-- ---------------------------------------------------------------------------  -->
+    <div id="everhourSlack">
+        <div>
+        <h2>How Everhour integrates with Slack?</h2>
+        <h3>Receive daily and weekly messages in your Slack channel about all the work done
+            by your team including clock-in, clock-out, and time off</h3>
+        </div>
+    </div> 
+        <div id="image"><img src="https://blog-cdn.everhour.com/assets/images/new-design/screens/invoices-preview.webp" alt=""></div>
+   <!-- ---------------------------------------------------------------------------  -->
+    <div id="middle">
+        <div class="1"><div><span>1</span></div>
+            <div><p>Sync clients</p>
+            <p>We will automatically sync all your existing clients so you don’t have to manage clients in several places.</p></div>
+       </div>
+       <div class="1"><div><span>2</span></div>
+            <div><p>Copy invoices to QuickBooks</p>
+            <p>You can create an invoice for billable hours and expenses. We'll copy this invoice as a draft to QuickBooks.</p></div>
+       </div>
+       <div class="1"><div><span>3</span></div>
+            <div><p>Paid time off</p>
+            <p>We will keep synching and display up-to-date invoice status, number, issue date and invoice amount on our invoices page.</p></div>
+       </div>
+    </div> 
+    <!-- ---------------------------------------------------------------------------  -->
+    <div id="star">
+        <div><img src="images/image1.png.jpg" alt=""></div>
+        <div><p>4.5 / 5 that's how people rate Everhour. See what 300+ reviewers are saying
+             about us on popular platforms, such as <a>Capterra,</a><a> G2Crowd,</a> or <a>TrustRadius</a>.Read what real people say.</p></div>
+    </div>
+    <!-- ---------------------------------------------------------------------------  -->
+    <div id="everhourSlack">
+        <div>
+        <h2>What else Everhour can do for you?</h2>
+        <h3 style="font: size 10px;">Besides our handy Slack integration, you will get access to<br> 
+            many useful features through our site  </h3>
+        </div>
+    </div>
+    <!-- ----------------------------------------functionallity later-----------------------------------  -->
+
+
+
+       <!-- ----------------------------------------functionallity later-----------------------------------  -->
+    <div id="last">
+    <div>
+        <h2>Let's get you started</h2>
+        <h3>Try Everhour for free and see if it works for your business</h3>
+        <input type="email" placeholder="work email...">
+        <button>Try free</button>
+        <div><i><img src="images/image5.png.png" alt=""></i>
+        <span><a>Or sign up with Google Account</a></span></div>
+         
+    </div>
+        <div>
+            <li><strong>Track time from the apps you already use</strong></li>
+            <li><strong>Know where your team’s time is going</strong></li>
+            <li><strong>Keep projects on budget</strong></li>
+            <li><strong>Increase transparency</strong></li>
+            <li><strong>Make your workflow more efficient</strong></li>
+            <li><strong>Spot burnout before it happens</strong></li>
+        </div>
+    </div> 
+
+    <div id="footer"></div>
+</body>
+</html>
+ 
+<script type="module">
+
+     import navbar from '/components/navbar.js'
+   
+   let container = document.querySelector('#navbar')
+   container.innerHTML =navbar();
+
+        
+        import footer from '/components_2/footer.js'
+  let x= document.getElementById("footer")
+  console.log(x)
+    x.innerHTML = footer()
+</script>

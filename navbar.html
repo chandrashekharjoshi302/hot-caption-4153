@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSztLOu_XXK4VwmTn1s7kJdw8MbaNS_ngvLfQ&usqp=CAU" type="image/icon type">
+
+    <title>navbar</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        #nav{
+            display:grid;
+            grid-template-columns: 0.5fr 2fr;
+            height:70px;
+            position: sticky;
+        }
+        #nav>div>img{
+            width:55%;
+        }
+        #nav>div:first-child{
+            padding:20px 0px 50px 50px;
+        }
+        #nav2{
+            display:flex;
+            justify-content: space-between;
+        }
+        #nav3{
+            display:flex;
+            gap:50px;
+            justify-content: space-around;
+            padding:30px 0px;
+            color: #7C7C7C;
+            font-family: geomanist-regular, sans-serif;
+            text-decoration: none solid rgb(124, 124, 124);
+            font-size: 20px;
+        }
+        #nav3>div>button{
+            padding:5px 10px;
+            border:none;
+            color:white;
+            background-color: #57bb71;
+            border-radius: 5px;
+        }
+        #nav3>div>button:hover{
+            color:black;
+        }
+        #nav3>div:hover{
+            /* color:black; */
+            font-weight: bold;
+        }
+        #nav4>button{
+            padding:10px;
+            border:none;
+            color:white;
+            background-color: #57bb71;
+            border-radius: 5px;
+            font-size: 18px;
+            margin-left: 20px;
+        }
+        #nav4{
+            justify-content: space-around;
+            padding:30px 0px;
+            color: #7C7C7C;
+            font-family: geomanist-regular, sans-serif;
+            text-decoration: none solid rgb(124, 124, 124);
+            font-size: 20px;
+            margin-right:50px;
+        }
+        #nav4>span:hover{
+           color:black;
+           font-weight: bold;
+        }
+        #int{
+            width:250px;border:1px solid black;padding:10px;
+        }
+        #int>div>div>img{
+            width:15%;
+            margin-right:5px;
+        }
+        #grid{
+            display:grid;
+            grid-template-columns: repeat(2,1fr);
+            row-gap:20px;
+        }
+        #inte{
+            margin-top:15px;
+            border-top: 1px solid #7C7C7C;
+            padding:10px;
+        }
+        .show{
+            display:grid;
+            grid-template-columns: 1fr;
+            gap:50px;
+        }
+         .hide{
+         visibility:hidden;
+        }
+        .show:hover  .hide{
+         visibility:visible;
+        } 
+ </style>
+</head>
+<body>
+    <div id="nav">
+        <div><img src="https://elearningindustry.com/wp-content/uploads/2021/03/37af1f218319cf521d01ac44ad330a6f.png" alt=""></div>
+        <div id="nav2">
+            <div id="nav3">
+                <div class="show">Integrations
+                    <div id="int" class="hide">
+                        <div id="grid">
+                            <div><img src="HomepageImages/asana.png" alt="">Asana</div>
+                            <div><img src="HomepageImages/clickup.png" alt="">Clickup</div>
+                            <div><img src="HomepageImages/basecamp.png" alt="">Basecamp</div>
+                            <div><img src="HomepageImages/trello.png" alt="">Trello</div>
+                            <div><img src="HomepageImages/jira.png" alt="">Jira</div>
+                            <div><img src="HomepageImages/monday.png" alt="">Monday</div>
+                            <div><img src="HomepageImages/github.png" alt="">Github</div>
+                            <div><img src="HomepageImages/gitlab.png" alt="">GitLab</div>
+                            <div><img src="HomepageImages/todoist.png" alt="">Todoist</div>
+                            <div><img src="HomepageImages/Notion.png" alt="">Notion</div>
+                            <div><img src="HomepageImages/xero.png" alt="">Xero</div>
+                            <div><img src="HomepageImages/Quickbook.png" alt="">QuickBooks</div>
+                        </div>
+                        <div id="inte">Everhour offers real integration with your favorite tools.
+                            <a href="#">All integrations</a>
+                        </div>
+                    </div>
+                </div>
+                <div>Pricing</div>
+                <div>Demo</div>
+            </div>
+            <div id="nav4">
+                <span>Log In</span>
+                <button>Sign up</button>
+            </div>
+    </div>
+    </div>
+</body>
+</html>
